@@ -13,7 +13,7 @@ if bashio::config.has_value 'esphome_version'; then
       username=${array[0]}
       ref=${array[1]}
     else
-      username="esphome"
+      username="makermelissa"
       ref=$esphome_version
     fi
     full_url="https://github.com/${username}/esphome/archive/${ref}.zip"
