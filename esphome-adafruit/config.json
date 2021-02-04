@@ -39,7 +39,7 @@
     "status_use_ping": "bool?",
     "streamer_mode": "bool?"
   },
-  "slug": "esphome-dev",
+  "slug": "esphome-adafruit",
   "stage": "experimental",
   "startup": "application",
   "url": "https://next.esphome.io/",

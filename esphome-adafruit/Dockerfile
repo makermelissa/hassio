@@ -4,7 +4,7 @@ FROM ${BUILD_FROM}
 # Copy root filesystem
 COPY rootfs /
 
-RUN pip3 install --no-cache-dir https://github.com/esphome/esphome/archive/dev.zip
+RUN pip3 install --no-cache-dir https://github.com/makermelissa/esphome/archive/dev.zip
 
 # Build arguments
 ARG BUILD_VERSION=dev
